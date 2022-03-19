@@ -10,4 +10,3 @@ Note that the drop rates have not changed
 
 Experimental mode:
 - Using bridge replace diamond ore viens with custom diamond ore block that changes render method to be emissive and block light emissive. This is a test to see if overriding vanilla block properties works as expected
-- 

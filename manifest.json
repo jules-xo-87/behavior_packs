@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Diamond ore replace test",
+        "name": "Jules Behavior Pack Diamonds",
+        "uuid": "f4050461-70fb-43e6-9fcb-dd6aa037e0db",
+        "version":  [1, 0, 0],
+        "min_engine_version": [ 1, 16, 0 ]
+    },
+    "modules": [
+        {
+            "description": "Zombies can suck it",
+            "type": "data",
+            "uuid": "748d1dc8-cef5-48f0-8aa7-13164353fedb",
+            "version": [1, 0, 0]
+        }
+    ] 
+}

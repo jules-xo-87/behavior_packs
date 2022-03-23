@@ -1,0 +1,33 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "jules:diamond_ore_feature"
+    },
+    "count": 8,
+    "replace_rules": [
+      {
+        "places_block": "jules:diamond_ores",
+        "may_replace": [
+          {
+            "name": "minecraft:stone"
+          },
+          {
+            "name": "minecraft:diamond_ore"
+          }
+        ]
+      },
+      {
+        "places_block": "jules:deepslate_diamond_ores",
+        "may_replace": [
+          {
+            "name": "minecraft:deepslate_diamond_ore"
+          },
+          {
+            "name": "minecraft:deepslate"
+          }
+        ]
+      }
+    ]
+  }
+}

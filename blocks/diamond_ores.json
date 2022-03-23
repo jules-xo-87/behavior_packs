@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "jules:diamond_ores",	
+			"is_experimental": false,
+			"register_to_creative_menu": true
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:map_color": "#ffffff",
+			"minecraft:unit_cube": {},
+			"minecraft:loot" : "loot_tables/item/diamond.json",
+            "minecraft:block_light_absorption": 0,
+            "minecraft:block_light_emission": 0.250,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "diamond_ore",
+					"render_method": "opaque"
+				}
+			}
+		}
+	}
+}
